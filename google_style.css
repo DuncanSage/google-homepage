@@ -1,9 +1,26 @@
 body {
 	/*background-color: blue;*/
-}
-#search {
-	    height: 233px;
-    margin-top: 89px;
-    margin:40%;
+	font-family: arial,sans-serif;
+	
 }
 
+
+#top_bar {
+	background-color: red;
+	position: left;
+}
+
+
+
+
+
+
+
+
+#search {
+	  
+}
+
+#set {
+
+}
