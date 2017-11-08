@@ -3,22 +3,47 @@ body {
 	font-family: arial,sans-serif;
 	
 }
+ul {
+	list-style: none;
+	
+}
 
+a {
+	text-decoration: none;
+	color: #000;
+	opacity: .75;
+	padding: 10px;
+}
 
-#top_bar {
-	background-color: red;
-	position: left;
+a:hover {
+	text-decoration: underline;
+	opacity: .90;
 }
 
 
+#top_ul {
+	float: right;
+}
+#top_bar li {
+	display: inline-flex;
+vertical-align: middle;
+}
 
+#top_ul img {
+	width: 25px;
+	height: 25px;
+}
 
-
-
+#acount {
+	color: white;
+	background-color: rgb(2,136,209);
+	padding: 15px;
+	border-radius: 100px;	
+}
 
 
 #search {
-	  
+	  clear: both;	
 }
 
 #set {
